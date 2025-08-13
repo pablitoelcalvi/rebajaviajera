@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tiquetes Baratos | Promociones de Vuelos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Poppins', sans-serif; line-height: 1.6; background: #f8f9fa; }
+    header {
+      background: linear-gradient(to right, #004aad, #0074e4);
+      color: white; padding: 40px 20px; text-align: center;
+    }
+    header h1 { font-size: 2.5em; margin-bottom: 10px; }
+    header p { font-size: 1.2em; margin-bottom: 20px; }
+    .cta-btn {
+      background: #ffcc00; color: #000; padding: 12px 25px;
+      text-decoration: none; font-weight: bold; border-radius: 5px;
+      display: inline-block; margin-top: 10px;
+    }
+    .section { padding: 40px 20px; max-width: 900px; margin: auto; }
+    .offers, .benefits { display: grid; gap: 20px; }
+    .offers { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+    .offer {
+      border: 1px solid #ddd; border-radius: 10px;
+      background: white; padding: 20px; text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .offer h3 { margin-bottom: 10px; font-size: 1.2em; }
+    .offer p { margin-bottom: 15px; }
+    .benefits { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); text-align: center; }
+    .benefit {
+      background: #fff; padding: 20px; border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    footer {
+      background: #222; color: #ccc; text-align: center;
+      padding: 20px; font-size: 0.9em;
+    }
+    footer a { color: #ccc; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Tiquetes Baratos & Promociones</h1>
+  <p>Ahorra viajando a precios increíbles. Ofertas desde $100.000 COP.</p>
+  <a href="#ofertas" class="cta-btn">Ver Ofertas</a>
+</header>
+
+<section class="section" id="ofertas">
+  <h2>Ofertas Destacadas</h2>
+  <div class="offers">
+    <div class="offer">
+      <h3>Bogotá → Medellín</h3>
+      <p>Desde $105.000 COP</p>
+      <a href="#" class="cta-btn">Reservar</a>
+    </div>
+    <div class="offer">
+      <h3>Bogotá → Cartagena</h3>
+      <p>Desde $110.000 COP</p>
+      <a href="#" class="cta-btn">Reservar</a>
+    </div>
+    <div class="offer">
+      <h3>Medellín → Cali</h3>
+      <p>Desde $99.900 COP</p>
+      <a href="#" class="cta-btn">Reservar</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>¿Por qué elegirnos?</h2>
+  <div class="benefits">
+    <div class="benefit">
+      <h3>✅ Precios actualizados</h3>
+      <p>Ofertas verificadas y en tiempo real para que viajes barato.</p>
+    </div>
+    <div class="benefit">
+      <h3>✅ Sin comisiones ocultas</h3>
+      <p>Pagas lo que ves, sin sorpresas al final.</p>
+    </div>
+    <div class="benefit">
+      <h3>✅ Atención 24/7</h3>
+      <p>Soporte por WhatsApp, teléfono y correo.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Opiniones de Clientes</h2>
+  <div class="offers">
+    <div class="offer">
+      <p>“Conseguí vuelo a Medellín por $105.000 COP. Todo perfecto.”</p>
+      <p>- Andrea M.</p>
+    </div>
+    <div class="offer">
+      <p>“Fácil, rápido y económico. 100% recomendados.”</p>
+      <p>- Carlos G.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Tiquetes Baratos Colombia. Todos los derechos reservados.</p>
+  <p>
+    <a href="#">Política de Privacidad</a> | 
+    <a href="#">Términos y Condiciones</a> | 
+    <a href="mailto:contacto@tiquetesbaratos.com">Contacto</a>
+  </p>
+</footer>
+
+</body>
+</html>
